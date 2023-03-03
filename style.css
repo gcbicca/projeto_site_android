@@ -168,6 +168,10 @@ body {
     width: 90%; /* Definindo a largura da imagem em 100% pra que ela se adapte a largura do elemento div ou outro. */
 }
 
+.conteudo-principal-imagem-menor {
+    height: 80%;
+}
+
 .conteudo-principal-imagem-bug {
     display: block;
     margin: 0 auto;
