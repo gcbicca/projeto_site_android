@@ -115,7 +115,7 @@ body {
     margin: auto;
     border-radius: 0px 0px 15px 15px;
     min-width: 280px;
-    max-width: 800px;
+    max-width: 798px;
     padding: 10px;
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.296);
     
@@ -157,8 +157,15 @@ body {
 }
 
 .conteudo-principal-imagem{
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; /* Definindo uma largura maxima para o elemento div em que a imagem está contida */
+
+}
+
+.conteudo-principal-imagem-item {
+    width: 90%; /* Definindo a largura da imagem em 100% pra que ela se adapte a largura do elemento div ou outro. */
 }
 
 .conteudo-principal-imagem-bug {
